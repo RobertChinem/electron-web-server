@@ -1,0 +1,21 @@
+{
+  "name": "electron-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . WebServer --platform=darwin --arch=x64 --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ip": "^1.1.5",
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-packager": "^15.4.0"
+  }
+}
